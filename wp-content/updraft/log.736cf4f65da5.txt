@@ -1,0 +1,457 @@
+0000.000 (0) Opened log file at time: Fri, 17 Apr 2020 17:01:32 +0000 on http://localhost:8888
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.3.2 PHP: 7.3.8 (apache2handler, Darwin Gautams-MacBook-Pro.local 19.4.0 Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64 x86_64) MySQL: 5.7.26 WPLANG: en_CA Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.8 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.10 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.2M | 4.5M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 11720.1 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: weekly)
+0000.010 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.014 (0) Set semaphore last lock (fd) time to 2020-04-17 17:01:32
+0000.015 (0) Semaphore lock (fd) complete
+0000.019 (0) Backup run: resumption=0, nonce=736cf4f65da5, file_nonce=736cf4f65da5 begun at=1587142892 (0s ago), job type=backup
+0000.021 (0) Scheduling a resumption (1) after 300 seconds (1587143192) in case this run gets aborted
+0000.036 (0) Checking if we have a zip executable available
+0000.037 (0) Testing: /usr/bin/zip
+0000.045 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.046 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.048 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.049 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.050 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.058 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.061 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.071 (0) Working binary zip found: /usr/bin/zip
+0000.073 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.074 (0) Creation of backups of directories: beginning
+0000.080 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.335 (0) Total entities for the zip file: 911 directories, 4342 files (0 skipped as non-modified), 64.4 MB
+0000.349 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.360 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.372 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.384 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.396 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.398 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 4342 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.834 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: size is now: 1.40 MB
+0000.851 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 600 files added (on-disk size: 1482.1 KB)
+0000.866 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 700 files added (on-disk size: 1482.1 KB)
+0000.879 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 800 files added (on-disk size: 1482.1 KB)
+0000.896 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 900 files added (on-disk size: 1482.1 KB)
+0000.917 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 1000 files added (on-disk size: 1482.1 KB)
+0000.919 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 4342 files batched, 501 (1002) added so far); re-opening (prior size: 1482.1 KB)
+0001.517 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: size is now: 4.30 MB
+0001.533 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 1100 files added (on-disk size: 4446.6 KB)
+0001.546 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 1200 files added (on-disk size: 4446.6 KB)
+0001.559 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 1300 files added (on-disk size: 4446.6 KB)
+0001.573 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 1400 files added (on-disk size: 4446.6 KB)
+0001.587 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 1500 files added (on-disk size: 4446.6 KB)
+0001.589 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 4342 files batched, 501 (1503) added so far); re-opening (prior size: 4446.6 KB)
+0002.138 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: size is now: 6.10 MB
+0002.151 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 1600 files added (on-disk size: 6222.5 KB)
+0002.163 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 1700 files added (on-disk size: 6222.5 KB)
+0002.174 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 1800 files added (on-disk size: 6222.5 KB)
+0002.186 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 1900 files added (on-disk size: 6222.5 KB)
+0002.197 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 2000 files added (on-disk size: 6222.5 KB)
+0002.199 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 4342 files batched, 501 (2004) added so far); re-opening (prior size: 6222.5 KB)
+0002.761 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: size is now: 7.60 MB
+0002.776 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 2100 files added (on-disk size: 7832.4 KB)
+0002.788 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 2200 files added (on-disk size: 7832.4 KB)
+0002.800 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 2300 files added (on-disk size: 7832.4 KB)
+0002.813 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 2400 files added (on-disk size: 7832.4 KB)
+0002.824 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 2500 files added (on-disk size: 7832.4 KB)
+0002.826 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 4342 files batched, 501 (2505) added so far); re-opening (prior size: 7832.4 KB)
+0003.518 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: size is now: 11.80 MB
+0003.531 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 2600 files added (on-disk size: 12099.3 KB)
+0003.543 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 2700 files added (on-disk size: 12099.3 KB)
+0003.554 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 2800 files added (on-disk size: 12099.3 KB)
+0003.566 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 2900 files added (on-disk size: 12099.3 KB)
+0003.577 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 3000 files added (on-disk size: 12099.3 KB)
+0003.579 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (24.1 MB, 4342 files batched, 501 (3006) added so far); re-opening (prior size: 12099.3 KB)
+0004.918 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: size is now: 19.50 MB
+0004.932 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 3100 files added (on-disk size: 19957.6 KB)
+0004.943 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 3200 files added (on-disk size: 19957.6 KB)
+0004.955 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 3300 files added (on-disk size: 19957.6 KB)
+0004.967 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 3400 files added (on-disk size: 19957.6 KB)
+0004.978 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 3500 files added (on-disk size: 19957.6 KB)
+0004.980 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 4342 files batched, 501 (3507) added so far); re-opening (prior size: 19957.6 KB)
+0005.372 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 3600 files added (on-disk size: 20907.3 KB)
+0005.383 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 3700 files added (on-disk size: 20907.3 KB)
+0005.396 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 3800 files added (on-disk size: 20907.3 KB)
+0005.408 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 3900 files added (on-disk size: 20907.3 KB)
+0005.423 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 4000 files added (on-disk size: 20907.3 KB)
+0005.425 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 4342 files batched, 501 (4008) added so far); re-opening (prior size: 20907.3 KB)
+0005.896 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 4100 files added (on-disk size: 21647.9 KB)
+0005.907 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 4200 files added (on-disk size: 21647.9 KB)
+0005.919 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip.tmp: 4300 files added (on-disk size: 21647.9 KB)
+0006.777 (0) Created plugins zip (0) - 22594.9 KB in 6.7 s (3374.4 KB/s) (sha1: 0f9643209e07d32abb725e65b5b0c32bf5a25cb9, sha256: 7cb7ecf075f3c4c93466c2961dc85086eaaf317c89ca0e1aa59e1505349f0c2e)
+0006.781 (0) Beginning creation of dump of themes (split every: 400 MB)
+0006.832 (0) Total entities for the zip file: 148 directories, 780 files (0 skipped as non-modified), 16.8 MB
+0006.845 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.857 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.869 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0006.881 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0006.893 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0006.894 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 780 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0007.467 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip.tmp: size is now: 2.80 MB
+0007.482 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip.tmp: 600 files added (on-disk size: 2853.9 KB)
+0007.495 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip.tmp: 700 files added (on-disk size: 2853.9 KB)
+0008.017 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip.tmp: size is now: 6.00 MB
+0008.160 (0) Created themes zip (0) - 6188.4 KB in 1.4 s (4497.1 KB/s) (sha1: 27cea518687734c10c61384d535088c8b2d10582, sha256: ce7eea3f05a1b6c44f23f9638742ba2969b141a51ee843ffc15bb8fed4dddc64)
+0008.163 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.164 (0) Looking for candidates to backup in: /Users/gautamsmb/Desktop/wordpress/wp-content/uploads
+0008.165 (0) finding files: slider2: adding to list (1)
+0008.166 (0) finding files: elementor: adding to list (2)
+0008.167 (0) finding files: 2020: adding to list (3)
+0008.168 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.188 (0) Total entities for the zip file: 6 directories, 386 files (0 skipped as non-modified), 37.3 MB
+0008.200 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.212 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.223 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 386 files batched, 284 (284) added so far); re-opening (prior size: 0 KB)
+0008.684 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip.tmp: size is now: 25.00 MB
+0008.687 (0) A useful amount of data was added after this amount of zip processing: 1.4 s (normalised: 1.4 s, rate: 18296.1 KB/s)
+0008.689 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.4037759304047, normalised_time=1.3992068802885, max_time=8.6878981590271, data points known=1, old_max_bytes=26214400, new_max_bytes=112411111)
+0008.694 (0) Zip: backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip.tmp: 300 files added (on-disk size: 25637 KB)
+0009.026 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip.tmp: size is now: 37.20 MB
+0009.950 (0) Created uploads zip (0) - 38121.6 KB in 1.8 s (21416.4 KB/s) (sha1: a54512ba7bd3c63db2f4f8b6b0108b2ee8d2b02a, sha256: 4f34ec4ed478c8ee8c68c76df92b8ed326cfdb3637f2d40bf098635893294465)
+0009.952 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.953 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.954 (0) Looking for candidates to backup in: /Users/gautamsmb/Desktop/wordpress/wp-content
+0009.955 (0) finding files: upgrade: skipping: excluded by options
+0009.956 (0) finding files: .DS_Store: adding to list (1)
+0009.957 (0) finding files: index.php: adding to list (2)
+0009.957 (0) finding files: plugins: skipping: this is the plugins directory
+0009.958 (0) finding files: uploads: skipping: this is the uploads directory
+0009.959 (0) finding files: updraft: skipping: this is the updraft directory
+0009.960 (0) finding files: languages: adding to list (3)
+0009.961 (0) finding files: themes: skipping: this is the themes directory
+0009.967 (0) Total entities for the zip file: 3 directories, 32 files (0 skipped as non-modified), 2.1 MB
+0010.110 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-others.zip.tmp: size is now: 0.50 MB
+0010.126 (0) Created others zip (0) - 521.5 KB in 0.2 s (3200.1 KB/s) (sha1: 701942ae41d29f4e1c1a10a194840cd23afae362, sha256: f6b7616c045c774a986470a74a4c836ac557a9c470a690c21619a53d4012df5b)
+0010.131 (0) Saving backup status to database (elements: 8)
+0010.134 (0) Beginning creation of database dump (WordPress DB)
+0010.152 (0) Table wp_options: Total expected rows (approximate): 294
+0010.235 (0) Table wp_options: Total rows added: 293 in 0.08 seconds
+0010.238 (0) Table wp_options: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_options.table.gz - 264.8 KB)
+0010.242 (0) Table wp_users: Total expected rows (approximate): 0
+0010.244 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0010.245 (0) Table wp_users: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_users.table.gz - 0.5 KB)
+0010.249 (0) Table wp_usermeta: Total expected rows (approximate): 23
+0010.251 (0) Table wp_usermeta: Total rows added: 25 in 0.00 seconds
+0010.253 (0) Table wp_usermeta: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_usermeta.table.gz - 1.3 KB)
+0010.257 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0010.258 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0010.259 (0) Table wp_commentmeta: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0010.263 (0) Table wp_comments: Total expected rows (approximate): 1
+0010.266 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0010.267 (0) Table wp_comments: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_comments.table.gz - 0.7 KB)
+0010.271 (0) Table wp_links: Total expected rows (approximate): 0
+0010.273 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0010.274 (0) Table wp_links: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_links.table.gz - 0.4 KB)
+0010.278 (0) Table wp_postmeta: Total expected rows (approximate): 3103
+0010.522 (0) Table wp_postmeta: Total rows added: 3341 in 0.24 seconds
+0010.525 (0) Table wp_postmeta: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_postmeta.table.gz - 434.7 KB)
+0010.530 (0) Table wp_posts: Total expected rows (approximate): 501
+0010.592 (0) Table wp_posts: Total rows added: 587 in 0.06 seconds
+0010.594 (0) Table wp_posts: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_posts.table.gz - 65.8 KB)
+0010.602 (0) Table wp_term_relationships: Total expected rows (approximate): 62
+0010.605 (0) Table wp_term_relationships: Total rows added: 68 in 0.00 seconds
+0010.606 (0) Table wp_term_relationships: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0010.610 (0) Table wp_term_taxonomy: Total expected rows (approximate): 6
+0010.612 (0) Table wp_term_taxonomy: Total rows added: 6 in 0.00 seconds
+0010.613 (0) Table wp_term_taxonomy: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0010.617 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0010.618 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0010.619 (0) Table wp_termmeta: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_termmeta.table.gz - 0.4 KB)
+0010.623 (0) Table wp_terms: Total expected rows (approximate): 6
+0010.625 (0) Table wp_terms: Total rows added: 6 in 0.00 seconds
+0010.626 (0) Table wp_terms: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_terms.table.gz - 0.5 KB)
+0010.640 (0) Table wp_nextend2_image_storage: Total expected rows (approximate): 6
+0010.642 (0) Table wp_nextend2_image_storage: Total rows added: 6 in 0.00 seconds
+0010.643 (0) Table wp_nextend2_image_storage: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_image_storage.table.gz - 0.7 KB)
+0010.647 (0) Table wp_nextend2_section_storage: Total expected rows (approximate): 13
+0010.654 (0) Table wp_nextend2_section_storage: Total rows added: 13 in 0.01 seconds
+0010.656 (0) Table wp_nextend2_section_storage: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_section_storage.table.gz - 20.2 KB)
+0010.662 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0010.664 (0) Table wp_nextend2_smartslider3_generators: Total rows added: 0 in 0.00 seconds
+0010.666 (0) Table wp_nextend2_smartslider3_generators: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_smartslider3_generators.table.gz - 0.3 KB)
+0010.671 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (approximate): 4
+0010.674 (0) Table wp_nextend2_smartslider3_sliders: Total rows added: 4 in 0.00 seconds
+0010.675 (0) Table wp_nextend2_smartslider3_sliders: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_smartslider3_sliders.table.gz - 4 KB)
+0010.680 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 2
+0010.682 (0) Table wp_nextend2_smartslider3_sliders_xref: Total rows added: 3 in 0.00 seconds
+0010.683 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz - 0.3 KB)
+0010.689 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (approximate): 13
+0010.692 (0) Table wp_nextend2_smartslider3_slides: Total rows added: 13 in 0.00 seconds
+0010.694 (0) Table wp_nextend2_smartslider3_slides: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_smartslider3_slides.table.gz - 4.2 KB)
+0010.699 (0) Table wp_nf3_action_meta: Total expected rows (approximate): 118
+0010.702 (0) Table wp_nf3_action_meta: Total rows added: 118 in 0.00 seconds
+0010.703 (0) Table wp_nf3_action_meta: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_action_meta.table.gz - 2 KB)
+0010.707 (0) Table wp_nf3_actions: Total expected rows (approximate): 4
+0010.709 (0) Table wp_nf3_actions: Total rows added: 4 in 0.00 seconds
+0010.711 (0) Table wp_nf3_actions: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_actions.table.gz - 0.5 KB)
+0010.716 (0) Table wp_nf3_chunks: Total expected rows (approximate): 0
+0010.718 (0) Table wp_nf3_chunks: Total rows added: 0 in 0.00 seconds
+0010.719 (0) Table wp_nf3_chunks: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_chunks.table.gz - 0.3 KB)
+0010.725 (0) Table wp_nf3_field_meta: Total expected rows (approximate): 287
+0010.730 (0) Table wp_nf3_field_meta: Total rows added: 288 in 0.00 seconds
+0010.732 (0) Table wp_nf3_field_meta: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_field_meta.table.gz - 2.8 KB)
+0010.736 (0) Table wp_nf3_fields: Total expected rows (approximate): 4
+0010.739 (0) Table wp_nf3_fields: Total rows added: 4 in 0.00 seconds
+0010.741 (0) Table wp_nf3_fields: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_fields.table.gz - 0.6 KB)
+0010.745 (0) Table wp_nf3_form_meta: Total expected rows (approximate): 104
+0010.749 (0) Table wp_nf3_form_meta: Total rows added: 105 in 0.00 seconds
+0010.750 (0) Table wp_nf3_form_meta: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_form_meta.table.gz - 1.6 KB)
+0010.754 (0) Table wp_nf3_forms: Total expected rows (approximate): 1
+0010.756 (0) Table wp_nf3_forms: Total rows added: 1 in 0.00 seconds
+0010.758 (0) Table wp_nf3_forms: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_forms.table.gz - 0.5 KB)
+0010.762 (0) Table wp_nf3_object_meta: Total expected rows (approximate): 0
+0010.764 (0) Table wp_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+0010.765 (0) Table wp_nf3_object_meta: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_object_meta.table.gz - 0.3 KB)
+0010.769 (0) Table wp_nf3_objects: Total expected rows (approximate): 0
+0010.771 (0) Table wp_nf3_objects: Total rows added: 0 in 0.00 seconds
+0010.772 (0) Table wp_nf3_objects: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_objects.table.gz - 0.3 KB)
+0010.775 (0) Table wp_nf3_relationships: Total expected rows (approximate): 0
+0010.777 (0) Table wp_nf3_relationships: Total rows added: 0 in 0.00 seconds
+0010.778 (0) Table wp_nf3_relationships: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_relationships.table.gz - 0.4 KB)
+0010.781 (0) Table wp_nf3_upgrades: Total expected rows (approximate): 1
+0010.783 (0) Table wp_nf3_upgrades: Total rows added: 1 in 0.00 seconds
+0010.785 (0) Table wp_nf3_upgrades: finishing file (backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_upgrades.table.gz - 2.9 KB)
+0010.788 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_options.table.gz (1/29): adding to final database dump
+0010.866 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_users.table.gz (2/29): adding to final database dump
+0010.870 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_usermeta.table.gz (3/29): adding to final database dump
+0010.871 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_commentmeta.table.gz (4/29): adding to final database dump
+0010.872 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_comments.table.gz (5/29): adding to final database dump
+0010.874 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_links.table.gz (6/29): adding to final database dump
+0010.875 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_postmeta.table.gz (7/29): adding to final database dump
+0011.105 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_posts.table.gz (8/29): adding to final database dump
+0011.138 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_term_relationships.table.gz (9/29): adding to final database dump
+0011.139 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_term_taxonomy.table.gz (10/29): adding to final database dump
+0011.141 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_termmeta.table.gz (11/29): adding to final database dump
+0011.142 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_terms.table.gz (12/29): adding to final database dump
+0011.143 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_image_storage.table.gz (13/29): adding to final database dump
+0011.145 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_section_storage.table.gz (14/29): adding to final database dump
+0011.152 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_smartslider3_generators.table.gz (15/29): adding to final database dump
+0011.153 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_smartslider3_sliders.table.gz (16/29): adding to final database dump
+0011.156 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (17/29): adding to final database dump
+0011.158 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nextend2_smartslider3_slides.table.gz (18/29): adding to final database dump
+0011.161 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_action_meta.table.gz (19/29): adding to final database dump
+0011.162 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_actions.table.gz (20/29): adding to final database dump
+0011.163 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_chunks.table.gz (21/29): adding to final database dump
+0011.165 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_field_meta.table.gz (22/29): adding to final database dump
+0011.167 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_fields.table.gz (23/29): adding to final database dump
+0011.168 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_form_meta.table.gz (24/29): adding to final database dump
+0011.170 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_forms.table.gz (25/29): adding to final database dump
+0011.171 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_object_meta.table.gz (26/29): adding to final database dump
+0011.173 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_objects.table.gz (27/29): adding to final database dump
+0011.174 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_relationships.table.gz (28/29): adding to final database dump
+0011.175 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db-table-wp_nf3_upgrades.table.gz (29/29): adding to final database dump
+0011.179 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db.gz: finished writing out complete database file (800 KB)
+0011.206 (0) Total database tables backed up: 29 (backup_2020-04-17-1301_Delmar_736cf4f65da5-db.gz, size: 824241, sha1: 971e15a4b4f04117ce71c86367a48fe5a4bbb550, sha256: 2633e72c5efac89478b1fa530e920fca76b19ed427796339264d8a39bc121301)
+0011.212 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0011.213 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0011.214 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0011.215 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0011.216 (0) backup_2020-04-17-1301_Delmar_736cf4f65da5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0011.217 (0) Saving backup history. Total backup size: 66.6 MB
+0011.220 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0011.223 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0011.225 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1eb6e605eca974b1954123b0e4e847a7)
+0012.350 (0) Google Drive: quota usage: used=4731.1 MB, total=15360 MB, available=10628.9 MB
+0012.352 (0) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip: Attempting to upload to Google Drive (into folder id: 1fMZ6j8GXGa9kMP8YkwtWheGpqxuNPKqw)
+0013.372 (0) Googledrive chunked upload: 4.5 % uploaded (1048576)
+0014.019 (0) Googledrive chunked upload: 9.1 % uploaded (2097152)
+0014.730 (0) Googledrive chunked upload: 13.6 % uploaded (3145728)
+0015.408 (0) Googledrive chunked upload: 18.1 % uploaded (4194304)
+0016.076 (0) Googledrive chunked upload: 22.7 % uploaded (5242880)
+0016.998 (0) Googledrive chunked upload: 27.2 % uploaded (6291456)
+0017.616 (0) Googledrive chunked upload: 31.7 % uploaded (7340032)
+0018.265 (0) Googledrive chunked upload: 36.3 % uploaded (8388608)
+0019.003 (0) Googledrive chunked upload: 40.8 % uploaded (9437184)
+0019.706 (0) Googledrive chunked upload: 45.3 % uploaded (10485760)
+0020.458 (0) Googledrive chunked upload: 49.9 % uploaded (11534336)
+0021.128 (0) Googledrive chunked upload: 54.4 % uploaded (12582912)
+0021.821 (0) Googledrive chunked upload: 58.9 % uploaded (13631488)
+0022.497 (0) Googledrive chunked upload: 63.4 % uploaded (14680064)
+0023.159 (0) Googledrive chunked upload: 68 % uploaded (15728640)
+0023.927 (0) Googledrive chunked upload: 72.5 % uploaded (16777216)
+0024.599 (0) Googledrive chunked upload: 77 % uploaded (17825792)
+0025.258 (0) Googledrive chunked upload: 81.6 % uploaded (18874368)
+0085.264 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: /Users/gautamsmb/Desktop/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0085.277 (0) An error condition has occurred for the first time during this job
+0085.969 (0) Google Drive: quota usage: used=4731.1 MB, total=15360 MB, available=10628.9 MB
+0085.972 (0) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip: Attempting to upload to Google Drive (into folder id: 1fMZ6j8GXGa9kMP8YkwtWheGpqxuNPKqw)
+0086.953 (0) Googledrive chunked upload: 16.5 % uploaded (1048576)
+0087.656 (0) Googledrive chunked upload: 33.1 % uploaded (2097152)
+0088.344 (0) Googledrive chunked upload: 49.6 % uploaded (3145728)
+0089.059 (0) Googledrive chunked upload: 66.2 % uploaded (4194304)
+0089.771 (0) Googledrive chunked upload: 82.7 % uploaded (5242880)
+0090.444 (0) Googledrive chunked upload: 99.3 % uploaded (6291456)
+0091.707 (0) Googledrive chunked upload: 100 % uploaded (6291456)
+0091.711 (0) Google Drive: OK: Archive backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip uploaded in 5.74 seconds
+0091.725 (0) Recording as successfully uploaded: backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip
+0091.730 (0) Deleting local file: backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip: OK
+0093.035 (0) Google Drive: quota usage: used=4731.1 MB, total=15360 MB, available=10628.9 MB
+0093.036 (0) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip: Attempting to upload to Google Drive (into folder id: 1fMZ6j8GXGa9kMP8YkwtWheGpqxuNPKqw)
+0094.294 (0) Googledrive chunked upload: 2.7 % uploaded (1048576)
+0095.088 (0) Googledrive chunked upload: 5.4 % uploaded (2097152)
+0095.753 (0) Googledrive chunked upload: 8.1 % uploaded (3145728)
+0155.757 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: /Users/gautamsmb/Desktop/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0156.216 (0) Google Drive: quota usage: used=4737.2 MB, total=15360 MB, available=10622.8 MB
+0156.217 (0) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-others.zip: Attempting to upload to Google Drive (into folder id: 1fMZ6j8GXGa9kMP8YkwtWheGpqxuNPKqw)
+0216.830 (0) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: /Users/gautamsmb/Desktop/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0217.247 (0) Google Drive: quota usage: used=4737.2 MB, total=15360 MB, available=10622.8 MB
+0217.250 (0) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-db.gz: Attempting to upload to Google Drive (into folder id: 1fMZ6j8GXGa9kMP8YkwtWheGpqxuNPKqw)
+0219.321 (0) Googledrive chunked upload: 100 % uploaded
+0219.325 (0) Google Drive: OK: Archive backup_2020-04-17-1301_Delmar_736cf4f65da5-db.gz uploaded in 2.07 seconds
+0219.326 (0) Recording as successfully uploaded: backup_2020-04-17-1301_Delmar_736cf4f65da5-db.gz
+0219.328 (0) Deleting local file: backup_2020-04-17-1301_Delmar_736cf4f65da5-db.gz: OK
+0219.331 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0219.332 (0) Number of backup sets in history: 1; groups (db): 1
+0219.333 (0) Examining (for databases) backup set with group_id=0, nonce=736cf4f65da5, datestamp=1587142892 (Apr 17 2020 17:01:32)
+0219.333 (0) This backup set is the backup set just made, so will not be deleted.
+0219.334 (0) Number of backup sets in history: 1; groups (files): 1
+0219.334 (0) Examining (for files) backup set with nonce=736cf4f65da5, datestamp=1587142892 (Apr 17 2020 17:01:32)
+0219.334 (0) This backup set is the backup set just made, so will not be deleted.
+0219.335 (0) This backup set is the backup set just made, so will not be deleted.
+0219.335 (0) This backup set is the backup set just made, so will not be deleted.
+0219.335 (0) This backup set is the backup set just made, so will not be deleted.
+0219.336 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0219.336 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0219.339 (0) Resume backup (736cf4f65da5, 0): finish run
+0219.341 (0) Decremented the semaphore (fd) by 1
+0219.342 (0) Semaphore (fd) unlocked
+0219.343 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0219.346 (0) Rescheduling resumption 1: moving to 100 seconds from now (1587143212)
+0219.348 (0) No email will/can be sent - the user has not configured an email address.
+0219.349 (0) The backup has not finished; a resumption is scheduled
+0321.972 (1) Opened log file at time: Fri, 17 Apr 2020 17:06:54 +0000 on http://localhost:8888
+0321.973 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.3.2 PHP: 7.3.8 (apache2handler, Darwin Gautams-MacBook-Pro.local 19.4.0 Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64 x86_64) MySQL: 5.7.26 WPLANG: en_CA Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.8 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.10 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 42.9M | 4.5M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0321.974 (1) Free space on disk containing Updraft's temporary directory: 11673.6 MB
+0321.976 (1) Backup run: resumption=1, nonce=736cf4f65da5, file_nonce=736cf4f65da5 begun at=1587142892 (322s ago), job type=backup, previous check-in=219.3s
+0321.977 (1) Scheduling a resumption (2) after 300 seconds (1587143514) in case this run gets aborted
+0321.987 (1) Checking if we have a zip executable available
+0321.988 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0321.989 (1) Creation of backups of directories: already finished
+0321.990 (1) Saving backup status to database (elements: 8)
+0321.996 (1) Database dump (WordPress DB): Creation was completed already
+0321.999 (1) backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0322.000 (1) backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip: themes: This file has already been successfully uploaded
+0322.001 (1) backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0322.001 (1) backup_2020-04-17-1301_Delmar_736cf4f65da5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0322.002 (1) backup_2020-04-17-1301_Delmar_736cf4f65da5-db.gz: db: This file has already been successfully uploaded
+0322.004 (1) Saving backup history. Total backup size: Unknown
+0322.006 (1) Requesting upload of the files that have not yet been successfully uploaded (3)
+0322.009 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0322.010 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1eb6e605eca974b1954123b0e4e847a7)
+0323.129 (1) Google Drive: quota usage: used=4737.9 MB, total=15360 MB, available=10622.1 MB
+0323.132 (1) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip: Attempting to upload to Google Drive (into folder id: 1fMZ6j8GXGa9kMP8YkwtWheGpqxuNPKqw)
+0323.285 (1) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip: upload already began; attempting to resume from byte 19922943
+0324.055 (1) Googledrive chunked upload: 90.6 % uploaded (20971520)
+0384.063 (1) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: /Users/gautamsmb/Desktop/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0384.065 (1) An error condition has occurred for the first time during this job
+0384.672 (1) Google Drive: quota usage: used=4737.9 MB, total=15360 MB, available=10622.1 MB
+0384.675 (1) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip: Attempting to upload to Google Drive (into folder id: 1fMZ6j8GXGa9kMP8YkwtWheGpqxuNPKqw)
+0385.237 (1) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip: upload already began; attempting to resume from byte 3932159
+0385.923 (1) Googledrive chunked upload: 12.8 % uploaded (4980736)
+0445.929 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: /Users/gautamsmb/Desktop/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0446.315 (1) Google Drive: quota usage: used=4737.9 MB, total=15360 MB, available=10622.1 MB
+0446.317 (1) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-others.zip: Attempting to upload to Google Drive (into folder id: 1fMZ6j8GXGa9kMP8YkwtWheGpqxuNPKqw)
+0509.175 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: /Users/gautamsmb/Desktop/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0509.180 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0509.181 (1) Number of backup sets in history: 1; groups (db): 1
+0509.183 (1) Examining (for databases) backup set with group_id=0, nonce=736cf4f65da5, datestamp=1587142892 (Apr 17 2020 17:01:32)
+0509.185 (1) This backup set is the backup set just made, so will not be deleted.
+0509.185 (1) Number of backup sets in history: 1; groups (files): 1
+0509.186 (1) Examining (for files) backup set with nonce=736cf4f65da5, datestamp=1587142892 (Apr 17 2020 17:01:32)
+0509.186 (1) This backup set is the backup set just made, so will not be deleted.
+0509.187 (1) This backup set is the backup set just made, so will not be deleted.
+0509.187 (1) This backup set is the backup set just made, so will not be deleted.
+0509.188 (1) This backup set is the backup set just made, so will not be deleted.
+0509.188 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0509.189 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0509.191 (1) Resume backup (736cf4f65da5, 1): finish run
+0509.194 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0509.196 (1) No email will/can be sent - the user has not configured an email address.
+0509.197 (1) The backup has not finished; a resumption is scheduled
+0736.891 (2) Opened log file at time: Fri, 17 Apr 2020 17:13:49 +0000 on http://localhost:8888
+0736.897 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.3.2 PHP: 7.3.8 (apache2handler, Darwin Gautams-MacBook-Pro.local 19.4.0 Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64 x86_64) MySQL: 5.7.26 WPLANG: en_CA Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.8 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.10 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 42.9M | 4.5M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0736.899 (2) Free space on disk containing Updraft's temporary directory: 11626.6 MB
+0736.905 (2) Backup run: resumption=2, nonce=736cf4f65da5, file_nonce=736cf4f65da5 begun at=1587142892 (737s ago), job type=backup, previous check-in=63.9s
+0736.917 (2) Scheduling a resumption (3) after 300 seconds (1587143929) in case this run gets aborted
+0736.931 (2) Checking if we have a zip executable available
+0736.933 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0736.934 (2) Creation of backups of directories: already finished
+0736.934 (2) Saving backup status to database (elements: 8)
+0736.940 (2) Database dump (WordPress DB): Creation was completed already
+0736.944 (2) backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0736.945 (2) backup_2020-04-17-1301_Delmar_736cf4f65da5-themes.zip: themes: This file has already been successfully uploaded
+0736.946 (2) backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0736.947 (2) backup_2020-04-17-1301_Delmar_736cf4f65da5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0736.948 (2) backup_2020-04-17-1301_Delmar_736cf4f65da5-db.gz: db: This file has already been successfully uploaded
+0736.949 (2) Saving backup history. Total backup size: Unknown
+0736.952 (2) Requesting upload of the files that have not yet been successfully uploaded (3)
+0736.954 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0736.955 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1eb6e605eca974b1954123b0e4e847a7)
+0738.363 (2) Google Drive: quota usage: used=4737.9 MB, total=15360 MB, available=10622.1 MB
+0738.366 (2) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip: Attempting to upload to Google Drive (into folder id: 1fMZ6j8GXGa9kMP8YkwtWheGpqxuNPKqw)
+0738.512 (2) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip: upload already began; attempting to resume from byte 21757951
+0739.198 (2) Googledrive chunked upload: 98.6 % uploaded (22806528)
+0742.153 (2) Googledrive chunked upload: 100 % uploaded (22806528)
+0742.159 (2) Google Drive: OK: Archive backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip uploaded in 3.79 seconds
+0742.161 (2) Recording as successfully uploaded: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip
+0742.165 (2) Deleting local file: backup_2020-04-17-1301_Delmar_736cf4f65da5-plugins.zip: OK
+0742.560 (2) Google Drive: quota usage: used=4760 MB, total=15360 MB, available=10600 MB
+0742.566 (2) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip: Attempting to upload to Google Drive (into folder id: 1fMZ6j8GXGa9kMP8YkwtWheGpqxuNPKqw)
+0742.820 (2) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip: upload already began; attempting to resume from byte 5767167
+0743.504 (2) Googledrive chunked upload: 17.5 % uploaded (6815744)
+0744.303 (2) Googledrive chunked upload: 20.1 % uploaded (7864320)
+0745.007 (2) Googledrive chunked upload: 22.8 % uploaded (8912896)
+0745.747 (2) Googledrive chunked upload: 25.5 % uploaded (9961472)
+0746.456 (2) Googledrive chunked upload: 28.2 % uploaded (11010048)
+0747.189 (2) Googledrive chunked upload: 30.9 % uploaded (12058624)
+0747.868 (2) Googledrive chunked upload: 33.6 % uploaded (13107200)
+0748.590 (2) Googledrive chunked upload: 36.3 % uploaded (14155776)
+0749.242 (2) Googledrive chunked upload: 38.9 % uploaded (15204352)
+0749.930 (2) Googledrive chunked upload: 41.6 % uploaded (16252928)
+0750.616 (2) Googledrive chunked upload: 44.3 % uploaded (17301504)
+0751.283 (2) Googledrive chunked upload: 47 % uploaded (18350080)
+0751.993 (2) Googledrive chunked upload: 49.7 % uploaded (19398656)
+0752.903 (2) Googledrive chunked upload: 52.4 % uploaded (20447232)
+0753.550 (2) Googledrive chunked upload: 55.1 % uploaded (21495808)
+0754.224 (2) Googledrive chunked upload: 57.8 % uploaded (22544384)
+0754.957 (2) Googledrive chunked upload: 60.4 % uploaded (23592960)
+0755.641 (2) Googledrive chunked upload: 63.1 % uploaded (24641536)
+0756.304 (2) Googledrive chunked upload: 65.8 % uploaded (25690112)
+0756.991 (2) Googledrive chunked upload: 68.5 % uploaded (26738688)
+0757.672 (2) Googledrive chunked upload: 71.2 % uploaded (27787264)
+0758.355 (2) Googledrive chunked upload: 73.9 % uploaded (28835840)
+0759.051 (2) Googledrive chunked upload: 76.6 % uploaded (29884416)
+0759.739 (2) Googledrive chunked upload: 79.2 % uploaded (30932992)
+0760.449 (2) Googledrive chunked upload: 81.9 % uploaded (31981568)
+0761.099 (2) Googledrive chunked upload: 84.6 % uploaded (33030144)
+0761.805 (2) Googledrive chunked upload: 87.3 % uploaded (34078720)
+0762.476 (2) Googledrive chunked upload: 90 % uploaded (35127296)
+0763.173 (2) Googledrive chunked upload: 92.7 % uploaded (36175872)
+0763.864 (2) Googledrive chunked upload: 95.4 % uploaded (37224448)
+0764.516 (2) Googledrive chunked upload: 98 % uploaded (38273024)
+0766.319 (2) Googledrive chunked upload: 100 % uploaded (38273024)
+0766.324 (2) Google Drive: OK: Archive backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip uploaded in 23.75 seconds
+0766.325 (2) Recording as successfully uploaded: backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip
+0766.328 (2) Deleting local file: backup_2020-04-17-1301_Delmar_736cf4f65da5-uploads.zip: OK
+0766.726 (2) Google Drive: quota usage: used=4797.2 MB, total=15360 MB, available=10562.8 MB
+0766.729 (2) Google Drive: backup_2020-04-17-1301_Delmar_736cf4f65da5-others.zip: Attempting to upload to Google Drive (into folder id: 1fMZ6j8GXGa9kMP8YkwtWheGpqxuNPKqw)
+0768.582 (2) Googledrive chunked upload: 100 % uploaded
+0768.586 (2) Google Drive: OK: Archive backup_2020-04-17-1301_Delmar_736cf4f65da5-others.zip uploaded in 1.86 seconds
+0768.587 (2) Recording as successfully uploaded: backup_2020-04-17-1301_Delmar_736cf4f65da5-others.zip
+0768.589 (2) Deleting local file: backup_2020-04-17-1301_Delmar_736cf4f65da5-others.zip: OK
+0768.593 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0768.594 (2) Number of backup sets in history: 1; groups (db): 1
+0768.595 (2) Examining (for databases) backup set with group_id=0, nonce=736cf4f65da5, datestamp=1587142892 (Apr 17 2020 17:01:32)
+0768.595 (2) This backup set is the backup set just made, so will not be deleted.
+0768.595 (2) Number of backup sets in history: 1; groups (files): 1
+0768.596 (2) Examining (for files) backup set with nonce=736cf4f65da5, datestamp=1587142892 (Apr 17 2020 17:01:32)
+0768.596 (2) This backup set is the backup set just made, so will not be deleted.
+0768.597 (2) This backup set is the backup set just made, so will not be deleted.
+0768.597 (2) This backup set is the backup set just made, so will not be deleted.
+0768.597 (2) This backup set is the backup set just made, so will not be deleted.
+0768.597 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0768.598 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0768.600 (2) Resume backup (736cf4f65da5, 2): finish run
+0768.601 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+0768.604 (2) No email will/can be sent - the user has not configured an email address.
+0768.605 (2) The backup apparently succeeded and is now complete
